@@ -1,0 +1,42 @@
+.Coworker {
+  overflow: hidden;
+}
+
+.coworkerProgram {
+  position: fixed;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  height: 500px;
+  background-color: #fff;
+  border-left: 1px solid #e4e4e4;
+  border-radius: 15px;
+}
+
+.header {
+  height: 35px;
+  background-color: var(--seolyu-portfolio-pink);
+}
+
+.contents {
+  height: 100%;
+  display: flex;
+}
+
+.sidebar {
+  width: 20%;
+  height: 100%;
+  background-color: var(--seolyu-portfolio-light-pink);
+  color: var(--seolyu-portfolio-white);
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.content {
+  width: 80%;
+  height: 100%;
+  background-color: var(--seolyu-portfolio-white);
+  padding: 15px;
+  box-sizing: border-box;
+}

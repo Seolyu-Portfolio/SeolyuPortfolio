@@ -1,4 +1,32 @@
+@font-face {
+  font-family: "insungitCutelivelyjisu";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/insungitCutelivelyjisu.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  font-size: 24px;
+
+  /* color */
+  --seolyu-portfolio-white: rgb(255, 255, 255);
+  --seolyu-portfolio-gray: rgba(128, 128, 128, 0.507);
+  --seolyu-portfolio-black: rgb(0, 0, 0);
+  --seolyu-portfolio-pink: #f44d9e;
+  --seolyu-portfolio-pink-opacity: #f870a0c7;
+  --seolyu-portfolio-light-pink: #e86e96;
+  --seolyu-portfolio-light-pink-opacity: #e86e9741;
+  --seolyu-portfolio-neon-pink: #ff00ff;
+  --seolyu-portfolio-yellow: #feb872;
+  --seolyu-portfolio-green: #0e8726;
+  --seolyu-portfolio-mint: #b0e0e6;
+  --seolyu-portfolio-skyblue: #87cefa;
+  --seolyu-portfolio-purple: #af699e;
+}
+
 body {
+  font-family: "insungitCutelivelyjisu";
   margin: 0;
   background-image: linear-gradient(to right, #ffc0cb, #87ceeb, #da70d6);
   background-size: 100% 100%;
@@ -6,6 +34,7 @@ body {
 }
 
 .App {
+  text-align: center;
   background-color: #d3f2e800;
   height: 100vh;
   background-image: linear-gradient(
@@ -16,4 +45,9 @@ body {
     linear-gradient(rgba(255, 255, 255, 0.5) 1px, transparent 1px),
     linear-gradient(90deg, rgba(255, 255, 255, 0.5) 1px, transparent 1px);
   background-size: 60px 60px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
