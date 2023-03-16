@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  background-image: linear-gradient(to right, #ffc0cb, #87ceeb, #da70d6);
+  background-size: 100% 100%;
+  background-position: top left;
+}
+
+.App {
+  background-color: #d3f2e800;
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5) 1px,
+      transparent 1px
+    ),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.5) 1px, transparent 1px),
+    linear-gradient(rgba(255, 255, 255, 0.5) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.5) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
