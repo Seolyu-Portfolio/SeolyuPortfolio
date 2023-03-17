@@ -3,3 +3,40 @@
   margin: 0;
   padding: 0;
 }
+
+.coworker {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 10px;
+}
+
+.profile {
+  position: relative;
+  width: 50;
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.circle {
+  position: absolute;
+  bottom: 0;
+  right: -1px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid var(--seolyu-portfolio-white);
+}
+
+.filled {
+  background-color: var(--seolyu-portfolio-skyblue);
+}
+
+.name {
+  padding-left: 10px;
+}

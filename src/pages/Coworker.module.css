@@ -37,6 +37,81 @@
   width: 80%;
   height: 100%;
   background-color: var(--seolyu-portfolio-white);
-  padding: 15px;
   box-sizing: border-box;
+}
+
+.profileCard {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid var(--seolyu-portfolio-gray);
+}
+
+.profile {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.circle {
+  position: absolute;
+  bottom: 0;
+  right: -1px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid var(--seolyu-portfolio-skyblue);
+}
+
+.filled {
+  background-color: var(--seolyu-portfolio-skyblue);
+}
+
+.name {
+  padding-left: 10px;
+}
+
+.coworkerComment {
+  margin: 20px;
+}
+
+.profileCardBelow {
+  display: flex;
+}
+
+.nameComment {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.nameText {
+  font-weight: 600;
+  padding-left: 5px;
+}
+
+.commentText {
+  padding-left: 5px;
+  text-align: left;
+}
+
+.sendMessage {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid var(--seolyu-portfolio-gray);
+  border-radius: 10px;
+}
+
+.defaultComment {
+  padding: 10px;
 }
