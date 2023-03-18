@@ -9,6 +9,7 @@
   justify-content: start;
   align-items: center;
   margin: 10px;
+  cursor: pointer;
 }
 
 .profile {

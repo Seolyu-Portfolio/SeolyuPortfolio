@@ -23,6 +23,12 @@
   --seolyu-portfolio-mint: #b0e0e6;
   --seolyu-portfolio-skyblue: #87cefa;
   --seolyu-portfolio-purple: #af699e;
+  --seolyu-portfolio-vscodeHeader: #95121f;
+  --seolyu-portfolio-vscodeSidebar: #000000;
+  --seolyu-portfolio-vscodeCodeEditor: #070035;
+  --seolyu-portfolio-vscodeTextPJTColor: #20ef23;
+  --seolyu-portfolio-vscodeTextTitleColor: #32a432;
+  --seolyu-portfolio-vscodeTextColor: #dfe9af;
 }
 
 body {
