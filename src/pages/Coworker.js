@@ -111,6 +111,11 @@ function Coworker() {
                 <div className={styles.sendMessageComment}>
                   {selectedCoworker.comment}
                 </div>
+                <img
+                  className={styles.sendBtn}
+                  src={`/paperplane.png`}
+                  alt="send button"
+                />
               </div>
             </div>
           ) : (

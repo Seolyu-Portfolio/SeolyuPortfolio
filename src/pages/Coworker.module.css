@@ -60,17 +60,18 @@
 
 .avatar {
   width: 50px;
-  border-radius: 50%;
+  border-radius: 15%;
 }
 
 .circle {
   position: absolute;
-  bottom: 0;
-  right: -1px;
+  bottom: -2px;
+  right: -4px;
   width: 10px;
   height: 10px;
   border-radius: 50%;
   border: 2px solid var(--seolyu-portfolio-skyblue);
+  background-color: var(--seolyu-portfolio-white);
 }
 
 .filled {
@@ -150,7 +151,7 @@
   width: 95%;
   height: 25%;
   position: absolute;
-  bottom: 5px;
+  bottom: 15px;
   border-radius: 10px;
   border: 1px solid var(--seolyu-portfolio-gray);
   display: flex;
@@ -179,6 +180,13 @@
 .sendMessageComment::-webkit-scrollbar-thumb {
   background-color: var(--seolyu-portfolio-light-pink);
   border-radius: 10px;
+}
+
+.sendBtn {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 25px;
 }
 
 .defaultComment {

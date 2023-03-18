@@ -20,17 +20,18 @@
 
 .avatar {
   width: 50px;
-  border-radius: 50%;
+  border-radius: 15%;
 }
 
 .circle {
   position: absolute;
-  bottom: 0;
-  right: -1px;
+  bottom: -2px;
+  right: -4px;
   width: 10px;
   height: 10px;
   border-radius: 50%;
   border: 2px solid var(--seolyu-portfolio-white);
+  background-color: var(--seolyu-portfolio-light-pink);
 }
 
 .filled {
