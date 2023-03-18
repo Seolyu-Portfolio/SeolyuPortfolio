@@ -34,10 +34,13 @@
 }
 
 .content {
+  position: relative;
   width: 80%;
   height: 100%;
   background-color: var(--seolyu-portfolio-white);
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
 }
 
 .profileCard {
@@ -80,6 +83,18 @@
 
 .coworkerComment {
   margin: 20px;
+  overflow: auto;
+  height: 48%;
+}
+
+.coworkerComment::-webkit-scrollbar {
+  width: 5px;
+  background-color: transparent;
+}
+
+.coworkerComment::-webkit-scrollbar-thumb {
+  background-color: var(--seolyu-portfolio-light-pink);
+  border-radius: 10px;
 }
 
 .profileCardBelow {
@@ -90,7 +105,7 @@
   display: flex;
   flex-direction: column;
   align-items: start;
-  font-size: 18px;
+  font-size: 0.75rem;
   padding-left: 10px;
   padding-top: 5px;
 }
@@ -105,10 +120,64 @@
   text-align: left;
 }
 
+.reaction {
+  margin-top: 10px;
+  width: 65px;
+  height: 40px;
+  border: 2px solid var(--seolyu-portfolio-skyblue);
+  border-radius: 25px;
+  background-color: var(--seolyu-portfolio-light-gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reactionEmoji {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+  object-fit: contain;
+}
+
+.reactionNum {
+  color: var(--seolyu-portfolio-skyblue);
+  font-size: 0.9rem;
+}
+
 .sendMessage {
-  margin: 20px;
-  padding: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 95%;
+  height: 25%;
+  position: absolute;
+  bottom: 5px;
+  border-radius: 10px;
   border: 1px solid var(--seolyu-portfolio-gray);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  text-align: left;
+  font-size: 0.75rem;
+}
+
+.sendMessageHeader {
+  height: calc(100% / 3);
+  background-color: var(--seolyu-portfolio-light-gray);
+}
+
+.sendMessageComment {
+  height: calc(100% - calc(100% / 3));
+  overflow: auto;
+  padding: 20px;
+}
+
+.sendMessageComment::-webkit-scrollbar {
+  width: 5px;
+  background-color: transparent;
+}
+
+.sendMessageComment::-webkit-scrollbar-thumb {
+  background-color: var(--seolyu-portfolio-light-pink);
   border-radius: 10px;
 }
 

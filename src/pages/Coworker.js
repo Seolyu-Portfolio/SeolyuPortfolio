@@ -11,7 +11,11 @@ function Coworker() {
       name: "Sy",
       status: "Online",
       avatar: "/profile.png",
-      comment: "I would like to recommend my ex-colleague 'Seolyu'",
+      comment: "I would like to recommend my ex-colleague 'Seolyu'.",
+      reaction: {
+        emoji: "/emoji1.png",
+        num: "4",
+      },
     },
     {
       id: 2,
@@ -85,11 +89,28 @@ function Coworker() {
                     <div className={styles.commentText}>
                       {selectedCoworker.comment}
                     </div>
+                    {selectedCoworker.reaction ? (
+                      <div className={styles.reaction}>
+                        <img
+                          className={styles.reactionEmoji}
+                          src={selectedCoworker.reaction.emoji}
+                          alt={selectedCoworker.reaction}
+                        />
+                        <div className={styles.reactionNum}>
+                          {selectedCoworker.reaction.num}
+                        </div>
+                      </div>
+                    ) : (
+                      <></>
+                    )}
                   </div>
                 </div>
               </div>
               <div className={styles.sendMessage}>
-                {selectedCoworker.comment}
+                <div className={styles.sendMessageHeader}></div>
+                <div className={styles.sendMessageComment}>
+                  {selectedCoworker.comment}
+                </div>
               </div>
             </div>
           ) : (
