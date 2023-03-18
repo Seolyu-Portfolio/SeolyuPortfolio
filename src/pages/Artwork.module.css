@@ -1,3 +1,62 @@
 .Artwork {
   overflow: hidden;
+  color: red;
+}
+
+.artworkProgram {
+  position: fixed;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  height: 500px;
+  background-color: #fff;
+  border-left: 1px solid #e4e4e4;
+  border-radius: 15px;
+}
+
+.header {
+  height: 35px;
+  background-color: var(--seolyu-portfolio-illustratorHeader);
+}
+
+.contents {
+  height: 100%;
+  display: flex;
+}
+
+.sidebar {
+  width: 20%;
+  height: 100%;
+  background-color: var(--seolyu-portfolio-illustratorSidebar);
+  color: var(--seolyu-portfolio-illustratorTextPJTColor);
+  padding: 15px;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 5px;
+  background-color: rgb(80, 78, 78);
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  width: 15px;
+  background-color: rgb(133, 133, 133);
+  border-radius: 10px;
+}
+
+.content {
+  position: relative;
+  width: 80%;
+  height: 100%;
+  background-color: var(--seolyu-portfolio-illustratorEditor);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.selectedArtwork,
+.defaultArtwork {
+  padding: 10px;
 }

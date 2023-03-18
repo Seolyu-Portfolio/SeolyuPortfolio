@@ -29,6 +29,12 @@
   --seolyu-portfolio-vscodeTextPJTColor: #20ef23;
   --seolyu-portfolio-vscodeTextTitleColor: #32a432;
   --seolyu-portfolio-vscodeTextColor: #dfe9af;
+  --seolyu-portfolio-illustratorHeader: #292929;
+  --seolyu-portfolio-illustratorSidebar: #313232;
+  --seolyu-portfolio-illustratorEditor: #373838;
+  --seolyu-portfolio-illustratorTextPJTColor: #e2e1e0;
+  --seolyu-portfolio-illustratorTextTitleColor: #e2e1e0;
+  --seolyu-portfolio-illustratorTextColor: #e2e1e0;
 }
 
 body {
